@@ -43,17 +43,15 @@ export default {
 
 <style>
 .tf-selector {
-    position: absolute;
-    top: 15px;
-    right: 80px;
-    font: 16px -apple-system,BlinkMacSystemFont,
-        Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,
-        Fira Sans,Droid Sans,Helvetica Neue,
-        sans-serif;
-    background: #34363b;
-    color: #ccc;
-    padding: 8px;
-    border-radius: 3px;
+  position: absolute;
+  top: 40px;
+  left: 68px;
+  font: 14px -apple-system,BlinkMacSystemFont, Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell, Fira Sans,Droid Sans,Helvetica Neue, sans-serif;
+  background: #121826e6;
+  color: #ccc;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #2f3240d6;
 }
 .timeframe {
     margin-right: 5px;

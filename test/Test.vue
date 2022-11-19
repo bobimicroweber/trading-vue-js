@@ -2,6 +2,7 @@
     <div>
         <div id="test-title" :style="{'background': (night ? null : '#fff')}">
             <h1>{{current_test.icon}} {{current_test.name}}</h1>
+
             <p>{{current_test.description}} [{{test_index+1}}/{{len}}]
                 <span v-if="current_test.early" class="early-test">
                     ⚠️ <label>EARLY TEST</label>
@@ -47,15 +48,18 @@ import Scripts from './tests/Scripts.vue'
 import Extensions from './tests/Extensions.vue'
 import Datasets from './tests/Datasets.vue'
 
-/*const TESTS = {
+const TESTS = {
+  DataHelper,
     Simple, Stocks, Timeframes, Multichart,
-    LegendButtons, ChartTypes, DataHelper, Toolbar,
+    LegendButtons, ChartTypes, Toolbar,
     GridSettings, Interfaces, IndexBased, Performance,
     Renko, Scripts, Extensions, Datasets
-}*/
+}
+/*
 const TESTS = {
   DataHelper
 }
+*/
 
 export default {
     name: 'app',
